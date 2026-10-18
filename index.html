@@ -323,7 +323,7 @@ if(!RM){const fs=document.querySelector('.fin'),r=fs.getBoundingClientRect(),pr=
 document.addEventListener('contextmenu',e=>e.preventDefault());
 document.addEventListener('dragstart',e=>{if(e.target.tagName==='IMG')e.preventDefault()});
 document.addEventListener('keydown',e=>{const k=e.key.toLowerCase(),c=e.ctrlKey||e.metaKey;if(e.key==='F12'||(c&&e.shiftKey&&['i','j','c'].includes(k))||(c&&['u','s'].includes(k))||(e.metaKey&&e.altKey&&['i','j','c','u'].includes(k)))e.preventDefault()});
-const SHEET_URL='https://script.google.com/macros/s/AKfycbw9F8NRhk4KRdC4sIoh9AsIf5AxOmZ6wTj8_H2DsGqAdbkZFqQL-8gibg8PhDhw8PyP/exec';
+const SHEET_URL='https://script.google.com/macros/s/AKfycbymO_CKG7J4J6fh42dSHTs-79XOIzezGWJkY34U5e_uP-0C5yJvtFy5eUEhdCTq5ASz/exec';
 const gn=document.getElementById('gn'),gm=document.getElementById('gm'),rst=document.getElementById('rst'),bt=document.getElementById('btn');
 bt.addEventListener('click',async()=>{const n=gn.value.trim(),m=gm.value.trim();
 if(!n){rst.textContent='Please write your name · من فضلك اكتب اسمك';gn.focus();return}
